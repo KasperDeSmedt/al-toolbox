@@ -16,13 +16,13 @@
 	<array>
 		<dict> 
 			<key>match</key> 
-			<string>^\s*//\s*#region\b</string> 
+			<string>^\s*(//\s*)?#region\b</string> 
 			<key>name</key> 
 			<string>keyword.operators.al</string> 
 		</dict> 
 		<dict> 
 			<key>match</key> 
-			<string>^\s*//\s*#endregion\b</string> 
+			<string>^\s*(//\s*)?#endregion\b</string> 
 			<key>name</key> 
 			<string>keyword.operators.al</string> 
 		</dict> 
